@@ -61,7 +61,7 @@ int main() {
   //store letters into array
   while (inFS >> num) { 
     if (num != 0) {
-      arr.push_back(num);
+      arr.push_back(num); //storing Bob's encoded message into an array
     }
   }
   inFS.close();
