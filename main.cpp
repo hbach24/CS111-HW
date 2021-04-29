@@ -52,7 +52,7 @@ int main() {
   int msg = 0, d = 89, n = 187;
 
   ifstream inFS;    
-  inFS.open("Cmessage.txt");
+  inFS.open("Cmessage.txt"); //open CMessage.txt file containing Bob's encoded message
 
   if (!inFS.is_open()) {
     cout << "Unable to open file" << endl;
